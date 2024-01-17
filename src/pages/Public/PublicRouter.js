@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route } from "react-router-dom"
 import { Layout, Home, Service, Contact, ShoppingCart } from '../Public'
-import Error from '@/_Utiles/Error'
+import Error from '../../_Utiles/Error'
 import ProductDetails from './ProductDetails';
 import ProductList from './ProductList';
 const PublicRouter = () => {
