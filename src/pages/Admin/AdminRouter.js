@@ -1,9 +1,9 @@
 import React from 'react';
 import {Routes, Route} from 'react-router-dom'
-import {AdminLayout, Dashboard} from '@/pages/Admin'
-import {User, UserAdd, UserEdit} from '@/pages/Admin/User'
-import { Cocktail, CocktailAdd, CocktailEdit} from '@/pages/Admin/Cocktail'
-import Error from '@/_Utiles/Error'
+import {AdminLayout, Dashboard} from '../Admin/'
+import {User, UserAdd, UserEdit} from '../Admin/User'
+import { Cocktail, CocktailAdd, CocktailEdit} from '../Admin/Cocktail'
+import Error from '../../_Utiles/Error'
 const AdminRouter = () => {
     return (
         <div>
