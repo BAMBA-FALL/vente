@@ -1,0 +1,31 @@
+/* Dans votre fichier user.css */
+
+/* Style du tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style de l'en-tête du tableau */
+  th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  /* Style des cellules du tableau */
+  td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  /* Style des lignes alternées pour une meilleure lisibilité */
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+
+  .user{
+    margin-top: 100px;
+  }

@@ -1,0 +1,44 @@
+/* styles.css */
+
+.product-list-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px; /* Espace entre les cartes */
+}
+
+.product-card {
+  width: 300px; /* Largeur des cartes */
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product-card img {
+  width: 100%; /* Pour que l'image remplisse la largeur de la carte */
+  border-radius: 5px;
+}
+
+.product-card h5 {
+  margin-top: 0;
+}
+
+.product-card p {
+  margin-bottom: 10px;
+}
+
+.product-card a {
+  display: block;
+  text-align: center;
+  padding: 8px 0;
+  background-color: #f0f0f0;
+  color: #333;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.product-card a:hover {
+  background-color: #ddd;
+}

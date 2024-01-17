@@ -1,0 +1,36 @@
+/* styles.css (ou tout autre fichier CSS) */
+
+.header {
+  background-color: #17202A;
+  color: #fff;
+  padding: 20px 0;
+ 
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between; /* Utilisation de space-between pour aligner Accueil à gauche et les autres à droite */
+  align-items: center;
+  margin: 5px;
+  padding: 0;
+
+}
+
+.header nav ul li {
+  margin: 0 15px;
+}
+
+.header nav ul li:first-child {
+  margin-right: auto; /* Pour aligner Accueil à gauche */
+}
+
+.header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.header nav ul li a:hover {
+  color: #ffd700; /* Couleur au survol */
+}
