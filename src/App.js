@@ -1,6 +1,6 @@
 import '@/App.css';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
-import PublicRouter from '@/pages/Public/PublicRouter';
+import PublicRouter from '../src/pages/Public/PublicRouter';
 import AdminRouter from './pages/Admin/AdminRouter';
 import AuthRouter from './pages/Auth/AuthRouter';
 import AuthGuard from './_helpers/AuthGuard';
